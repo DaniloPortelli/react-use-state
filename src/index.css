@@ -1,0 +1,41 @@
+*{
+  font-family: sans-serif;
+}
+
+
+/* HEADER */
+.containerHeader{
+  /* border: solid red 2px; */
+  text-align: left;
+}
+
+
+/* MAIN */
+.buttonsContainer{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn{
+  color: white;
+  background-color: #0D6EFD;
+  border: transparent;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.descriptionContainer{
+  /* border: solid 2px blue; */
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.description{
+  border: solid 2px lightgray;
+  text-align: left;
+  width: 70%;
+  padding: 0px 10px 20px 20px;
+}
