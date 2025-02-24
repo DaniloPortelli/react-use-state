@@ -1,5 +1,4 @@
 import { useState } from "react"
-
 import languages from "../../data/languages"
 import Button from "./Button"
 import Card from "./Card"
@@ -37,8 +36,8 @@ const Main = () => {
         )
     })
 
-//creo una funzione che, una volta definito "selectedLanguage", detti
-//determinate condizioni
+    //creo una funzione che, una volta definito "selectedLanguage", detti
+    //determinate condizioni
     const renderSelectedLanguage = () => {
         //SE "selectedLanguage" è diverso da qualsiasi oggetto dell'array
         //(se non viene cliccato alcun bottone, "selectedLanguage" sarà
@@ -54,24 +53,15 @@ const Main = () => {
         )
     }
 
-
-
-
-
     return (
         <main>
             <div>
                 {renderLanguage()}
-
             </div>
+
             <div>
                 {renderSelectedLanguage()}
-
-
             </div>
-
-
-
         </main>
     )
 }
