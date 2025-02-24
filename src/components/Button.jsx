@@ -1,10 +1,10 @@
 import languages from "../../data/languages"
 
 
-const Button = ({title}) => {
+const Button = ({title, selected}) => {
     return(
 
-    <button>
+    <button onClick={ () => selected() }>
         {title}
     </button>
     )
