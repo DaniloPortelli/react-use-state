@@ -1,10 +1,18 @@
-const Card = ({title, description}) => {
-    return (
-        <div>
-            <h3>{title}</h3>
-            <p>{description}</p>
-        </div>
-    )
+import languages from "../../data/languages";
+import { useState } from "react";
+
+
+const Card = ({language}) => {
+
+    
+
+
+return(
+
+    <p>{language}</p>
+
+)
+
 }
 
 export default Card

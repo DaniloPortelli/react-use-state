@@ -1,13 +1,14 @@
-import languages from "../../data/languages"
+import { useState } from "react";
+import languages from "../../data/languages";
+
+const Button = ({title, id, click}) => {
 
 
-const Button = ({title, selected}) => {
-    return(
+return(
 
-    <button onClick={ () => selected() }>
-        {title}
-    </button>
-    )
+    <button onClick={ () => click(id)} key={id}>{title}</button>
+)
+
 }
 
 export default Button
